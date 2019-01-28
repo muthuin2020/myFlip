@@ -1,0 +1,1 @@
+java -cp org.testing.TestNG PracticingTest.xml
