@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.8</version>
+			<version>6.10</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -63,6 +63,17 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
+					
+					<configuration>
+					<suiteXmlFiles>
+					
+					<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					
+					</configuration>					
+					
+					
+					
 				</plugin>
 				<plugin>
 					<artifactId>maven-war-plugin</artifactId>

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="main.HomePageTest">
+      <class name="CollectionsFrameworkPractice.TestingDummy">
         <methods>
-          <include name="initDriver"/>
-          <include name="quitDriver"/>
-          <include name="myOrdrs"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- main.HomePageTest -->
+      </class> <!-- CollectionsFrameworkPractice.TestingDummy -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
