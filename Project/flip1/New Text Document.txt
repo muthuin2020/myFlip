@@ -1,15 +1,9 @@
 java -cp bin;lib/* org.testing.TestNG PracticingTest.xml
-
-muthu branch2
-
 muthu branch1
-
+muthu branch2
 muthu1 branch2
-
-
 muthu1 branch1
-
-muthu2 branch2
-
 muthu2 branch1
 muthu3 branch2
+muthu2 branch2
+muthu3 branch1
